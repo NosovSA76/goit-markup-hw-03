@@ -336,7 +336,7 @@ body{
 
 /* portfolio */
 .conteiner.filter{
-padding: 0 15px 120px 15px;
+padding: 0 15px 72px 15px;
 }
 
 .filter-list{
@@ -378,7 +378,7 @@ padding: 0 15px 120px 15px;
      text-decoration: none;
      flex-basis: calc(100%/3 - var(--set-gap));
       margin-left: var(--set-gap);
-      margin-bottom: var(--set-gap);
+      margin-bottom: calc(2 * var(--set-gap));
     }
      
     .projects{
