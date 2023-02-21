@@ -5,164 +5,199 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+
+    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+
     <title>Portfolio</title>
   </head>
   <body>
     <!--Fixed  -->
-    <header>
-      <nav>
-        <a class="logo" href="./index.html" target="_self"> WebStudio </a>
-        <ul class="nav">
-          <li><a class="link" href="./index.html" target="_self">Studio</a></li>
-          <li>
-            <a class="link" href="./portfolio.html" target="_self">Portfolio</a>
-          </li>
-          <li><a class="link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address>
-        <ul class="address">
-          <li>
-            <a
-              class="link"
-              href="mailto:info@devstudio.com"
-              class="contacts-email"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="link" href="tel:+110001111111" class="contacts-number"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="header">
+      <div class="conteiner">
+        <nav class="fulnav">
+          <a class="logo" href="./index.html" target="_self">
+            Web<span class="logo-end">Studio</span>
+          </a>
+          <ul class="nav">
+            <li>
+              <a class="link link-margin" href="./index.html" target="_self"
+                >Studio</a
+              >
+            </li>
+            <li>
+              <a class="link link-margin" href="./portfolio.html" target="_self"
+                >Portfolio</a
+              >
+            </li>
+            <li><a class="link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="address-list">
+            <li>
+              <a
+                class="link link-margin"
+                href="mailto:info@devstudio.com"
+                class="contacts-email"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="link" href="tel:+110001111111" class="contacts-number"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
-    <section>
-      <ul class="section-list">
-        <li><button class="button-filter" type="button">All</button></li>
-        <li><button type="button" class="button-filter">Web</button></li>
-        <li><button type="button" class="button-filter">Site</button></li>
-        <li><button type="button" class="button-filter">App</button></li>
-        <li><button type="button" class="button-filter">Design</button></li>
-      </ul>
-    </section>
-    <section>
-      <ul class="section-list">
-        <li>
-          <a class="projects" href="">
-            <img
-              src="./images/banking.jpg"
-              alt="Banking"
-              width="360"
-              height="300"
-            />
-            <h3 class="project-item">Banking App Interface Concept</h3>
-          </a>
-          <p>App</p>
-        </li>
-        <li>
-          <a class="projects" href="">
-            <img
-              src="./images/payment.jpg"
-              alt="Payment"
-              width="360"
-              height="300"
-            />
-            <h3 class="project-item">Cashless Payment</h3>
-          </a>
-          <p>Marketing</p>
-        </li>
-        <li>
-          <a class="projects" href="">
-            <img
-              src="./images/meditation.jpg"
-              alt="Meditaion"
-              width="360"
-              height="300"
-            />
-            <h3 class="project-item">Meditaion App</h3>
-          </a>
-          <p>App</p>
-        </li>
-        <li>
-          <a class="projects" href="">
-            <img src="./images/taxi.jpg" alt="Taxi" width="360" height="300" />
-            <h3 class="project-item">Taxi Service</h3>
-          </a>
-          <p>Marketing</p>
-        </li>
-        <li>
-          <a class="projects" href="">
-            <img
-              src="./images/screen.jpg"
-              alt="Screen"
-              width="360"
-              height="300"
-            />
-            <h3 class="project-item">Screen Illustrations</h3>
-          </a>
-          <p>Design</p>
-        </li>
-        <li>
-          <a class="projects" href="">
-            <img
-              src="./images/onlain.jpg"
-              alt="Courses"
-              width="360"
-              height="300"
-            />
-            <h3 class="project-item">Online Courses</h3>
-          </a>
-          <p>Design</p>
-        </li>
-        <li>
-          <a class="projects" href="">
-            <img
-              src="./images/instagram.jpg"
-              alt="Instagram"
-              width="360"
-              height="300"
-            />
-            <h3 class="project-item">Instagram Stories Concept</h3>
-          </a>
-          <p>Design</p>
-        </li>
-        <li>
-          <a class="projects" href="">
-            <img src="./images/food.jpg" alt="food" width="360" height="300" />
-            <h3 class="project-item">Organic Food</h3>
-          </a>
-          <p>Web Site</p>
-        </li>
-        <li>
-          <a class="projects" href="">
-            <img
-              src="./images/cofee.jpg"
-              alt="Coffee"
-              width="360"
-              height="300"
-            />
-            <h3 class="project-item">Fresh Coffee</h3>
-          </a>
-          <p>Web Site</p>
-        </li>
-      </ul>
+    <!-- MAIN -->
+
+    <section class="section">
+      <h1 class="visually-hidden">Portfolio</h1>
+      <div class="conteiner filter">
+        <ul class="filter-list">
+          <li><button class="button-filter" type="button">All</button></li>
+          <li><button type="button" class="button-filter">Web Site</button></li>
+          <li><button type="button" class="button-filter">App</button></li>
+          <li><button type="button" class="button-filter">Design</button></li>
+          <li>
+            <button type="button" class="button-filter">Marketing</button>
+          </li>
+        </ul>
+        <ul class="projects-list">
+          <li class="projectsa">
+            <a class="projects" href="">
+              <img
+                src="./images/banking.jpg"
+                alt="Banking"
+                width="360"
+                height="300"
+              />
+              <h3 class="project-item">Banking App Interface Concept</h3>
+              <p class="project-type">App</p>
+            </a>
+          </li>
+          <li class="projectsa">
+            <a class="projects" href="">
+              <img
+                src="./images/payment.jpg"
+                alt="Payment"
+                width="360"
+                height="300"
+              />
+              <h3 class="project-item">Cashless Payment</h3>
+              <p class="project-type">Marketing</p>
+            </a>
+          </li>
+          <li class="projectsa">
+            <a class="projects" href="">
+              <img
+                src="./images/meditation.jpg"
+                alt="Meditaion"
+                width="360"
+                height="300"
+              />
+              <h3 class="project-item">Meditaion App</h3>
+              <p class="project-type">App</p>
+            </a>
+          </li>
+
+          <li class="projectsa">
+            <a class="projects" href="">
+              <img
+                src="./images/taxi.jpg"
+                alt="Taxi"
+                width="360"
+                height="300"
+              />
+              <h3 class="project-item">Taxi Service</h3>
+              <p class="project-type">Marketing</p>
+            </a>
+          </li>
+          <li class="projectsa">
+            <a class="projects" href="">
+              <img
+                src="./images/screen.jpg"
+                alt="Screen"
+                width="360"
+                height="300"
+              />
+              <h3 class="project-item">Screen Illustrations</h3>
+              <p class="project-type">Design</p>
+            </a>
+          </li>
+          <li class="projectsa">
+            <a class="projects" href="">
+              <img
+                src="./images/onlain.jpg"
+                alt="Courses"
+                width="360"
+                height="300"
+              />
+              <h3 class="project-item">Online Courses</h3>
+              <p class="project-type">Marketing</p>
+            </a>
+          </li>
+          <li class="projectsa">
+            <a class="projects" href="">
+              <img
+                src="./images/instagram.jpg"
+                alt="Instagram"
+                width="360"
+                height="300"
+              />
+              <h3 class="project-item">Instagram Stories Concept</h3>
+              <p class="project-type">Design</p>
+            </a>
+          </li>
+          <li class="projectsa">
+            <a class="projects" href="">
+              <img
+                src="./images/food.jpg"
+                alt="food"
+                width="360"
+                height="300"
+              />
+              <h3 class="project-item">Organic Food</h3>
+              <p class="project-type">Web Site</p>
+            </a>
+          </li>
+          <li class="projectsa">
+            <a class="projects" href="">
+              <img
+                src="./images/cofee.jpg"
+                alt="Coffee"
+                width="360"
+                height="300"
+              />
+              <h3 class="project-item">Fresh Coffee</h3>
+              <p class="project-type">Web Site</p>
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
     <footer class="footer">
-      <a class="logo-footer" href="./index.html" target="_self">WebStudio</a>
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="conteiner">
+        <a class="logo-footer" href="./index.html" target="_self"
+          >Web<span class="logo-footer-end">Studio</span>
+        </a>
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
