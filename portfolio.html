@@ -30,30 +30,25 @@
           </a>
           <ul class="nav">
             <li>
-              <a class="link link-margin" href="./index.html" target="_self"
-                >Studio</a
-              >
+              <a class="link" href="./index.html" target="_self">Studio</a>
             </li>
-            <li>
-              <a class="link link-margin" href="./portfolio.html" target="_self"
+            <li class="nav-margin">
+              <a class="link" href="./portfolio.html" target="_self"
                 >Portfolio</a
               >
             </li>
-            <li><a class="link" href="">Contacts</a></li>
+            <li class="nav-margin"><a class="link" href="">Contacts</a></li>
           </ul>
         </nav>
         <address class="address">
           <ul class="address-list">
             <li>
-              <a
-                class="link link-margin"
-                href="mailto:info@devstudio.com"
-                class="contacts-email"
+              <a class="contacts" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
-              <a class="link" href="tel:+110001111111" class="contacts-number"
+            <li class="nav-margin">
+              <a class="contacts" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -63,15 +58,23 @@
     </header>
     <!-- MAIN -->
 
-    <section class="section">
+    <section class="section portfolio">
       <h1 class="visually-hidden">Portfolio</h1>
-      <div class="conteiner filter">
+      <div class="conteiner">
         <ul class="filter-list">
-          <li><button class="button-filter" type="button">All</button></li>
-          <li><button type="button" class="button-filter">Web Site</button></li>
-          <li><button type="button" class="button-filter">App</button></li>
-          <li><button type="button" class="button-filter">Design</button></li>
-          <li>
+          <li class="filter-list-item">
+            <button class="button-filter" type="button">All</button>
+          </li>
+          <li class="filter-list-item">
+            <button type="button" class="button-filter">Web Site</button>
+          </li>
+          <li class="filter-list-item">
+            <button type="button" class="button-filter">App</button>
+          </li>
+          <li class="filter-list-item">
+            <button type="button" class="button-filter">Design</button>
+          </li>
+          <li class="filter-list-item">
             <button type="button" class="button-filter">Marketing</button>
           </li>
         </ul>
@@ -84,8 +87,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="project-item">Banking App Interface Concept</h3>
-              <p class="project-type">App</p>
+              <div class="project-text">
+                <h3 class="project-item">Banking App Interface Concept</h3>
+                <p class="project-type">App</p>
+              </div>
             </a>
           </li>
           <li class="projectsa">
@@ -96,8 +101,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="project-item">Cashless Payment</h3>
-              <p class="project-type">Marketing</p>
+              <div class="project-text">
+                <h3 class="project-item">Cashless Payment</h3>
+                <p class="project-type">Marketing</p>
+              </div>
             </a>
           </li>
           <li class="projectsa">
@@ -108,11 +115,12 @@
                 width="360"
                 height="300"
               />
-              <h3 class="project-item">Meditaion App</h3>
-              <p class="project-type">App</p>
+              <div class="project-text">
+                <h3 class="project-item">Meditaion App</h3>
+                <p class="project-type">App</p>
+              </div>
             </a>
           </li>
-
           <li class="projectsa">
             <a class="projects" href="">
               <img
@@ -121,8 +129,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="project-item">Taxi Service</h3>
-              <p class="project-type">Marketing</p>
+              <div class="project-text">
+                <h3 class="project-item">Taxi Service</h3>
+                <p class="project-type">Marketing</p>
+              </div>
             </a>
           </li>
           <li class="projectsa">
@@ -133,8 +143,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="project-item">Screen Illustrations</h3>
-              <p class="project-type">Design</p>
+              <div class="project-text">
+                <h3 class="project-item">Screen Illustrations</h3>
+                <p class="project-type">Design</p>
+              </div>
             </a>
           </li>
           <li class="projectsa">
@@ -145,8 +157,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="project-item">Online Courses</h3>
-              <p class="project-type">Marketing</p>
+              <div class="project-text">
+                <h3 class="project-item">Online Courses</h3>
+                <p class="project-type">Marketing</p>
+              </div>
             </a>
           </li>
           <li class="projectsa">
@@ -157,8 +171,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="project-item">Instagram Stories Concept</h3>
-              <p class="project-type">Design</p>
+              <div class="project-text">
+                <h3 class="project-item">Instagram Stories Concept</h3>
+                <p class="project-type">Design</p>
+              </div>
             </a>
           </li>
           <li class="projectsa">
@@ -169,8 +185,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="project-item">Organic Food</h3>
-              <p class="project-type">Web Site</p>
+              <div class="project-text">
+                <h3 class="project-item">Organic Food</h3>
+                <p class="project-type">Web Site</p>
+              </div>
             </a>
           </li>
           <li class="projectsa">
@@ -181,13 +199,18 @@
                 width="360"
                 height="300"
               />
-              <h3 class="project-item">Fresh Coffee</h3>
-              <p class="project-type">Web Site</p>
+              <div class="project-text">
+                <h3 class="project-item">Fresh Coffee</h3>
+                <p class="project-type">Web Site</p>
+              </div>
             </a>
           </li>
         </ul>
       </div>
     </section>
+
+    <!-- Footer -->
+
     <footer class="footer">
       <div class="conteiner">
         <a class="logo-footer" href="./index.html" target="_self"
